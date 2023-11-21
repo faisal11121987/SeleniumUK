@@ -17,6 +17,8 @@ import GenericLibrary.BaseTest1;
 public class Assignment3AddToCartTest extends BaseTest1 {
 	@Test (groups = "Smoke")
 	public void addToCart () throws InterruptedException {
+		
+		//new changes
 
 		//Step 3 : To navigate to Digital downloads
 		driver.findElement(By.partialLinkText("Digital downloads")).click();
